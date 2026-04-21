@@ -17,4 +17,25 @@ Dibangun dengan **Streamlit** dan desain modern (mesh gradient biru, oranye, hij
 1. Clone repositori ini
    ```bash
    git clone https://github.com/username/portal-bps-kota-batu.git
+=======
+# Portal BPS Kota Batu
+
+Portal akses cepat ke dua dashboard utama BPS Kota Batu: **Dashboard Statistik** dan **Dashboard Monitoring IPH**.  
+Dibangun dengan **Streamlit** dan desain modern (mesh gradient biru, oranye, hijau + efek glassmorphism).
+
+## Fitur
+- Tampilan responsif dengan animasi halus
+- Kartu interaktif (hover effect)
+- Tombol akses langsung ke dashboard
+- Logo BPS (bisa dari file lokal atau URL cadangan)
+
+## Prasyarat
+- Python 3.9 atau lebih baru
+
+## Cara Menjalankan di Lokal
+
+1. Clone repositori ini
+   ```bash
+   git clone https://github.com/username/portal-bps-kota-batu.git
+
    cd portal-bps-kota-batu

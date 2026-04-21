@@ -21,7 +21,7 @@ def get_base64_of_bin_file(bin_file):
 logo_base64 = get_base64_of_bin_file("Logo-Badan-Pusat-Statistik-BPS.png")
 logo_src = f"data:image/png;base64,{logo_base64}" if logo_base64 else "https://upload.wikimedia.org/wikipedia/commons/e/e0/Logo_BPS.png"
 
-# ================= CSS DENGAN PERBAIKAN =================
+# ================= CSS YANG SUDAH DIPERBAIKI =================
 st.markdown(f"""
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap');
@@ -30,7 +30,7 @@ st.markdown(f"""
         font-family: 'Inter', sans-serif;
     }}
 
-    /* BACKGROUND MESH GRADIENT - BIRU, ORANGE, HIJAU (LEBIH CERAH) */
+    /* BACKGROUND MESH GRADIENT - BIRU, ORANGE, HIJAU */
     .stApp {{
         background: #071426;
         background-image: 
@@ -47,9 +47,9 @@ st.markdown(f"""
         animation: fadeIn 0.7s ease;
     }}
     .bps-logo {{
-        width: 160px;  /* LEBIH BESAR */
+        width: 160px;
         filter: drop-shadow(0 8px 20px rgba(0,0,0,0.25));
-        margin-bottom: 0.25rem;  /* JARAK SANGAT DEKAT */
+        margin-bottom: 0.25rem;
         transition: transform 0.2s;
     }}
     .bps-logo:hover {{
@@ -86,7 +86,7 @@ st.markdown(f"""
         border: 1px solid rgba(255,255,255,0.2);
     }}
 
-    /* CARD GLASSMORPHISM - LEBIH ELEGAN */
+    /* CARD GLASSMORPHISM */
     .card-modern {{
         background: rgba(10, 25, 47, 0.7);
         backdrop-filter: blur(12px);
@@ -131,7 +131,7 @@ st.markdown(f"""
         margin-bottom: 1.8rem;
     }}
 
-    /* TOMBOL - JELAS DAN GELAP */
+    /* TOMBOL */
     .stLinkButton > a {{
         width: 100% !important;
         padding: 0.85rem 0 !important;
@@ -146,7 +146,6 @@ st.markdown(f"""
         color: white !important;
         box-shadow: 0 6px 14px rgba(0,0,0,0.35) !important;
     }}
-    /* Tombol statistik (biru gradien solid) */
     div[data-testid="column"]:first-child .stLinkButton > a {{
         background: linear-gradient(95deg, #0D47A1, #1565C0) !important;
         border-bottom: 2px solid #42A5F5 !important;
@@ -156,7 +155,6 @@ st.markdown(f"""
         transform: scale(1.02) translateY(-2px) !important;
         box-shadow: 0 12px 22px rgba(33,150,243,0.5) !important;
     }}
-    /* Tombol IPH (orange gradien solid) */
     div[data-testid="column"]:last-child .stLinkButton > a {{
         background: linear-gradient(95deg, #BF360C, #E65100) !important;
         border-bottom: 2px solid #FFB74D !important;
@@ -192,7 +190,6 @@ st.markdown(f"""
     .stApp header {{
         background-color: transparent !important;
     }}
-    /* Warna teks default */
     p, h1, h2, h3, h4, h5, h6, span, div {{
         color: #F1F5F9;
     }}
