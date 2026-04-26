@@ -219,7 +219,7 @@ with col1:
         </div>
     </div>
     """, unsafe_allow_html=True)
-    st.link_button("✨ Buka Dashboard Statistik", 
+    st.link_button("Buka Dashboard Statistik", 
                    "https://dashboardbatu-ka64nijfnekqtwwmpq4qgd.streamlit.app/", 
                    use_container_width=True)
 
@@ -234,7 +234,7 @@ with col2:
         </div>
     </div>
     """, unsafe_allow_html=True)
-    st.link_button("🔥 Buka Dashboard IPH", 
+    st.link_button("Buka Dashboard IPH", 
                    "https://dashboard-iph-kota-batu-cwg5au63betgavnrt2lmpk.streamlit.app/", 
                    use_container_width=True)
 
