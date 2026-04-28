@@ -202,7 +202,7 @@ st.markdown(f"""
     <img src="{logo_src}" class="bps-logo">
     <h1 class="main-title">BPS KOTA BATU</h1>
     <p class="sub-title">Sistem Informasi & Monitoring Terpadu</p>
-    <div class="badge">⚡ Integrasi • Digitalisasi • Analisis ⚡</div>
+    <div class="badge"> Integrasi • Digitalisasi • Analisis </div>
 </div>
 """, unsafe_allow_html=True)
 
